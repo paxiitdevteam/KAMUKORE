@@ -1,0 +1,17 @@
+# KAMUKORE Website - Robots.txt
+# Guidelines for search engine crawlers
+
+User-agent: *
+Allow: /
+Allow: /src/pages/
+Allow: /src/assets/
+
+# Disallow documentation folder (optional - remove if you want docs indexed)
+Disallow: /docs/
+
+# Sitemap location
+Sitemap: https://paxiitdevteam.github.io/KAMUKORE/sitemap.xml
+
+# Crawl-delay (optional - adjust if needed)
+# Crawl-delay: 1
+

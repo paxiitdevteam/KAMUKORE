@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/?lang=fr"/>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/about.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/about.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/about.html?lang=fr"/>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/contact.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/contact.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/contact.html?lang=fr"/>
+    </url>
+    
+    <!-- Experience List Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience.html?lang=fr"/>
+    </url>
+    
+    <!-- Experience Detail Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience-detail.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience-detail.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/experience-detail.html?lang=fr"/>
+    </url>
+    
+    <!-- Craft Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/craft.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/craft.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/craft.html?lang=fr"/>
+    </url>
+    
+    <!-- Culture Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/culture.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/culture.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/culture.html?lang=fr"/>
+    </url>
+    
+    <!-- Wear Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/wear.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/wear.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/wear.html?lang=fr"/>
+    </url>
+    
+    <!-- Product Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/product.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/product.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/product.html?lang=fr"/>
+    </url>
+    
+    <!-- Restaurant Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/restaurant.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/restaurant.html?lang=fr"/>
+    </url>
+    
+    <!-- Hospitality Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/hospitality.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/hospitality.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/hospitality.html?lang=fr"/>
+    </url>
+    
+    <!-- Region Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/region.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/region.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/region.html?lang=fr"/>
+    </url>
+    
+    <!-- Privacy Policy Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/privacy-policy.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/privacy-policy.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/privacy-policy.html?lang=fr"/>
+    </url>
+    
+    <!-- Terms of Use Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/terms-of-use.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/terms-of-use.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/terms-of-use.html?lang=fr"/>
+    </url>
+    
+    <!-- Cookie Policy Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/cookie-policy.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/cookie-policy.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/cookie-policy.html?lang=fr"/>
+    </url>
+    
+    <!-- Legal Notice Page -->
+    <url>
+        <loc>https://paxiitdevteam.github.io/KAMUKORE/src/pages/legal-notice.html</loc>
+        <lastmod>2025-12-31</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/legal-notice.html"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://paxiitdevteam.github.io/KAMUKORE/src/pages/legal-notice.html?lang=fr"/>
+    </url>
+    
+</urlset>
+
