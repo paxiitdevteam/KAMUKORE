@@ -9,7 +9,15 @@
     // Determine base path based on current page location
     function getBasePath() {
         const path = window.location.pathname;
-        if (path === '/' || path === '/index.html' || path.endsWith('/index.html')) {
+        // Handle GitHub Pages (repository name in path)
+        // Examples: /KAMUKORE/ or /KAMUKORE/index.html or /KAMUKORE/src/pages/about.html
+        const isRoot = path === '/' || 
+                      path === '/index.html' || 
+                      path.endsWith('/index.html') ||
+                      path.endsWith('/') ||
+                      (path.split('/').filter(p => p).length <= 1 && !path.includes('/src/pages/'));
+        
+        if (isRoot) {
             return ''; // Root level
         } else if (path.includes('/src/pages/')) {
             return '../'; // Pages level
