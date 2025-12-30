@@ -226,7 +226,7 @@ function updateExperienceContent(data) {
     // Update main image alt text
     const mainImage = document.querySelector('[data-experience-main-image]');
     if (mainImage && t[data.titleKey]) {
-      mainImage.alt = t[data.titleKey] || 'Experience image';
+      mainImage.alt = t[data.titleKey] || 'Cultural experience';
     }
     
     // Update story sections
@@ -332,7 +332,9 @@ function initImageGallery(images, mainImage) {
       
       const img = document.createElement('img');
       img.src = imageSrc;
-      img.alt = 'Experience gallery image ' + (index + 1);
+      // Get experience title for better alt text
+      const experienceTitle = document.querySelector('[data-experience-title]')?.textContent || 'Cultural experience';
+      img.alt = experienceTitle + ' - Gallery image ' + (index + 1);
       img.loading = 'lazy';
       img.onerror = function() {
         this.style.display = 'none';
@@ -381,7 +383,7 @@ function openImageModal(imageSrc, index) {
         <button class="image-modal-close" aria-label="Close modal">&times;</button>
         <button class="image-modal-prev" aria-label="Previous image">&#8249;</button>
         <button class="image-modal-next" aria-label="Next image">&#8250;</button>
-        <img class="image-modal-img" src="" alt="Experience image">
+        <img class="image-modal-img" src="" alt="Cultural experience gallery image">
       </div>
     `;
     
