@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Wear - KAMUKORE | Premium Handmade Ladies' Slippers</title>
+    <meta name="title" content="Wear - KAMUKORE | Premium Handmade Ladies' Slippers">
+    <meta name="description" content="KAMUKORE WEAR - Premium handmade ladies' slippers inspired by African culture. Handmade elegance for modern femininity. Discover fashion collections that blend traditional aesthetics with contemporary design.">
+    <meta name="keywords" content="KAMUKORE WEAR, handmade slippers, ladies slippers, African fashion, traditional fashion, contemporary design, handmade shoes, premium footwear">
+    <meta name="author" content="KAMUKORE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kamukore.com/src/pages/wear.html">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://kamukore.com/src/pages/wear.html">
+    <link rel="alternate" hreflang="fr" href="https://kamukore.com/src/pages/wear.html?lang=fr">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamukore.com/src/pages/wear.html">
+    <meta property="og:title" content="Wear - KAMUKORE">
+    <meta property="og:description" content="Premium handmade ladies' slippers inspired by African culture. Handmade elegance for modern femininity.">
+    <meta property="og:image" content="https://kamukore.com/src/assets/images/wear/wear-hero.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kamukore.com/src/pages/wear.html">
+    <meta name="twitter:title" content="Wear - KAMUKORE">
+    <meta name="twitter:description" content="Premium handmade ladies' slippers inspired by African culture.">
+    <meta name="twitter:image" content="https://kamukore.com/src/assets/images/wear/wear-hero.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kamukore.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Wear",
+          "item": "https://kamukore.com/src/pages/wear.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/path-manager.js"></script>
+    <script src="../assets/js/translations.js"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-component"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section with Background Image -->
+        <section class="page-hero wear-hero" style="background-image: url('../assets/images/wear/hero/hero-wear.jpg');">
+            <div class="container">
+                <h1 data-translate="page.wear.title">Wear</h1>
+                <p data-translate="page.wear.subtitle">Ladies' Slippers - Handmade elegance inspired by African culture</p>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="section section-intro">
+            <div class="container">
+                <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+                    <div class="section-badge" data-translate="wear.intro.badge">Our Philosophy</div>
+                    <p class="section-subtitle" data-translate="wear.intro">KAMUKORE WEAR celebrates modern femininity through the art of handcrafted slippers. Each pair embodies the delicate balance between contemporary elegance and the rich cultural heritage of Africa. We believe in the power of craftsmanship to tell stories, creating expressions of cultural identity and symbols of feminine grace.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Overview -->
+        <section class="section section-collections" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="wear.collections.badge">Our Collections</div>
+                    <h2 class="section-title" data-translate="wear.collections.title">Collections</h2>
+                    <p class="section-subtitle" data-translate="wear.collections.subtitle">Discover our curated collections of premium ladies' slippers</p>
+                </div>
+                <div class="grid grid-3" id="wear-collections-grid">
+                    <!-- Collections will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="section section-products">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="wear.products.badge">Featured Products</div>
+                    <h2 class="section-title" data-translate="wear.products.title">Handcrafted Slippers</h2>
+                    <p class="section-subtitle" data-translate="wear.products.subtitle">Handcrafted slippers that celebrate feminine elegance</p>
+                </div>
+
+                <!-- Wear Controls -->
+                <div class="wear-controls">
+                    <div class="wear-search-wrapper">
+                        <input 
+                            type="text" 
+                            id="wear-search" 
+                            class="wear-search-input" 
+                            placeholder="Search slippers..." 
+                            data-translate-placeholder="wear.search.placeholder"
+                            aria-label="Search slippers">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    
+                    <div class="wear-filter-group">
+                        <label for="wear-collection-filter" data-translate="wear.filter.collection">Filter by Collection:</label>
+                        <select id="wear-collection-filter" class="wear-filter-select">
+                            <option value="all" data-translate="wear.filter.collection.all">All Collections</option>
+                            <option value="beaded-leather" data-translate="wear.filter.collection.beaded">Beaded Leather Slippers</option>
+                            <option value="minimal-slides" data-translate="wear.filter.collection.minimal">Minimal Leather Slides</option>
+                            <option value="cultural-patterns" data-translate="wear.filter.collection.patterns">Cultural Pattern Sandals</option>
+                            <option value="limited-editions" data-translate="wear.filter.collection.limited">Limited Editions</option>
+                        </select>
+                    </div>
+
+                    <div class="results-info">
+                        <span id="wear-results-count" data-translate="wear.filter.results">8 results</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-3" id="wear-products-grid">
+                    <!-- Products will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Craft and Materials -->
+        <section class="section section-craft-materials" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="wear.craft.badge">Craftsmanship</div>
+                    <h2 class="section-title" data-translate="wear.craft.title">Craft and Materials</h2>
+                    <p class="section-subtitle" data-translate="wear.craft.subtitle">The artistry behind every pair</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="concept-content">
+                        <h3 data-translate="wear.craft.hand-beading.title">Hand-Beading</h3>
+                        <p data-translate="wear.craft.hand-beading.desc">Each bead is carefully selected and hand-stitched by skilled artisans, creating intricate patterns that reflect traditional African designs. This meticulous process ensures every pair is unique and carries the mark of authentic craftsmanship.</p>
+                        
+                        <h3 data-translate="wear.craft.leather.title">Leather Craftsmanship</h3>
+                        <p data-translate="wear.craft.leather.desc">We source premium quality leather, treated with traditional techniques that enhance durability while maintaining natural beauty. Our artisans shape each piece with precision, creating comfortable, long-lasting slippers that mold to your feet over time.</p>
+                        
+                        <h3 data-translate="wear.craft.motifs.title">Cultural Motifs</h3>
+                        <p data-translate="wear.craft.motifs.desc">The patterns and designs on our slippers draw inspiration from centuries-old African art and symbolism. Each motif tells a story, connecting you to a rich cultural heritage while expressing your personal style.</p>
+                        
+                        <h3 data-translate="wear.craft.production.title">Small-Batch Production</h3>
+                        <p data-translate="wear.craft.production.desc">Every pair is crafted in small batches, ensuring attention to detail and quality control. This approach allows our artisans to focus on excellence rather than quantity, resulting in slippers that are truly special.</p>
+                    </div>
+                    <div class="concept-image-wrapper">
+                        <div class="image-placeholder concept-image" style="background-image: url('../assets/images/wear/craft/craft-materials.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">🎨</span>
+                                <span data-translate="wear.craft.image">Craft and Materials</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Values -->
+        <section class="section section-design-values">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="wear.values.badge">Design Values</div>
+                    <h2 class="section-title" data-translate="wear.values.title">Feminine Design Values</h2>
+                    <p class="section-subtitle" data-translate="wear.values.subtitle">The principles that guide our design philosophy</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card value-card">
+                        <div class="value-icon">⚖️</div>
+                        <h3 class="card-title" data-translate="wear.values.comfort.title">Comfort and Balance</h3>
+                        <p class="card-text" data-translate="wear.values.comfort.desc">Designed for all-day wear with ergonomic support and balanced proportions that complement your natural stride.</p>
+                    </div>
+                    <div class="card value-card">
+                        <div class="value-icon">✨</div>
+                        <h3 class="card-title" data-translate="wear.values.simplicity.title">Elegant Simplicity</h3>
+                        <p class="card-text" data-translate="wear.values.simplicity.desc">Clean lines and refined details create timeless pieces that enhance rather than overwhelm your personal style.</p>
+                    </div>
+                    <div class="card value-card">
+                        <div class="value-icon">🌍</div>
+                        <h3 class="card-title" data-translate="wear.values.identity.title">Cultural Identity</h3>
+                        <p class="card-text" data-translate="wear.values.identity.desc">Each design honors African heritage while celebrating the diverse expressions of modern femininity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
+
+    <!-- Cookie Banner Component -->
+    <div id="cookie-banner-component"></div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/wear-list.js"></script>
+    <script>
+        // Initialize translation when page loads
+        setTimeout(function() {
+            if (typeof initTranslation === 'function') {
+                initTranslation();
+            }
+            if (typeof initLanguageSwitcher === 'function') {
+                initLanguageSwitcher();
+            }
+        }, 200);
+    </script>
+</body>
+</html>

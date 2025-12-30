@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Craft - KAMUKORE | Traditional Handcrafted Products</title>
+    <meta name="title" content="Craft - KAMUKORE | Traditional Handcrafted Products">
+    <meta name="description" content="Discover traditional crafts and handcrafted products from Cameroon. Learn about craft philosophy, explore artisan products made by skilled craftspeople preserving traditional techniques.">
+    <meta name="keywords" content="traditional crafts, handcrafted products, artisan products, Cameroon crafts, traditional techniques, handmade items, craft philosophy">
+    <meta name="author" content="KAMUKORE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kamukore.com/src/pages/craft.html">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://kamukore.com/src/pages/craft.html">
+    <link rel="alternate" hreflang="fr" href="https://kamukore.com/src/pages/craft.html?lang=fr">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamukore.com/src/pages/craft.html">
+    <meta property="og:title" content="Craft - KAMUKORE">
+    <meta property="og:description" content="Discover traditional crafts and handcrafted products from Cameroon.">
+    <meta property="og:image" content="https://kamukore.com/src/assets/images/craft/craft-hero.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kamukore.com/src/pages/craft.html">
+    <meta name="twitter:title" content="Craft - KAMUKORE">
+    <meta name="twitter:description" content="Discover traditional crafts and handcrafted products from Cameroon.">
+    <meta name="twitter:image" content="https://kamukore.com/src/assets/images/craft/craft-hero.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kamukore.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Craft",
+          "item": "https://kamukore.com/src/pages/craft.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/path-manager.js"></script>
+    <script src="../assets/js/translations.js"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-component"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section with Background Image -->
+        <section class="page-hero craft-hero" style="background-image: url('../assets/images/craft/hero/hero-craft.jpg');">
+            <div class="container">
+                <h1 data-translate="page.craft.title">Craft</h1>
+                <p data-translate="page.craft.subtitle">Masterpieces Handcrafted with Love - Where Tradition Meets Timeless Beauty</p>
+            </div>
+        </section>
+
+        <!-- Craft Philosophy -->
+        <section class="section section-philosophy">
+            <div class="container">
+                <div class="grid grid-2 concept-grid">
+                    <div class="concept-content">
+                        <div class="section-badge" data-translate="craft.philosophy.badge">Our Philosophy</div>
+                        <h2 data-translate="craft.philosophy.title">Our Craft Philosophy</h2>
+                        <p data-translate="craft.philosophy.p1">Craftsmanship is more than skill—it's a connection to heritage, a dialogue between past and present, and an expression of cultural identity. At KAMUKORE, we celebrate artisans who preserve traditional techniques while creating pieces that speak to contemporary life.</p>
+                        <p data-translate="craft.philosophy.p2">Each craft tells a story. Whether it's a handwoven basket, a carved mask, or a piece of traditional pottery, these objects carry the knowledge, values, and creativity of generations. We work directly with master craftspeople to bring you authentic, meaningful products.</p>
+                    </div>
+                    <div class="concept-image-wrapper">
+                        <div class="image-placeholder concept-image" style="background-image: url('../assets/images/craft/philosophy/craft-philosophy.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">🎨</span>
+                                <span data-translate="craft.philosophy.image">Craft Philosophy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Grid -->
+        <section class="section section-products" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="craft.products.badge">Our Products</div>
+                    <h2 class="section-title" data-translate="craft.products.title">Handcrafted Products</h2>
+                    <p class="section-subtitle" data-translate="craft.products.subtitle">Each piece is a masterpiece of authentic Cameroonian craftsmanship</p>
+                </div>
+
+                <!-- Craft Controls -->
+                <div class="craft-controls">
+                    <div class="craft-search-wrapper">
+                        <input 
+                            type="text" 
+                            id="craft-search" 
+                            class="craft-search-input" 
+                            placeholder="Search crafts..." 
+                            data-translate-placeholder="craft.search.placeholder"
+                            aria-label="Search crafts">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    
+                    <div class="craft-filter-group">
+                        <label for="craft-category-filter" data-translate="craft.filter.category">Filter by Category:</label>
+                        <select id="craft-category-filter" class="craft-filter-select">
+                            <option value="all" data-translate="craft.filter.category.all">All Categories</option>
+                            <option value="basketry" data-translate="craft.filter.category.basketry">Basketry</option>
+                            <option value="sculpture" data-translate="craft.filter.category.sculpture">Sculpture</option>
+                            <option value="pottery" data-translate="craft.filter.category.pottery">Pottery</option>
+                            <option value="textiles" data-translate="craft.filter.category.textiles">Textiles</option>
+                            <option value="jewelry" data-translate="craft.filter.category.jewelry">Jewelry</option>
+                        </select>
+                    </div>
+
+                    <div class="results-info">
+                        <span id="craft-results-count" data-translate="craft.filter.results">6 results</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-3" id="craft-products-grid">
+                    <div class="card product-card">
+                        <div class="product-card-image">
+                            <div class="image-placeholder product-image" style="background-image: url('../assets/images/craft/products/baskets.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🧺</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="card-title" data-translate="craft.product1.title">Traditional Baskets</h3>
+                            <p class="card-text" data-translate="craft.product1.desc">Handwoven baskets using traditional techniques, perfect for storage or decoration. Each piece is unique and made by skilled artisans.</p>
+                            <a href="product.html" class="btn btn-secondary" data-translate="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <div class="product-card-image">
+                            <div class="image-placeholder product-image" style="background-image: url('../assets/images/craft/products/masks.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎭</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="card-title" data-translate="craft.product2.title">Carved Masks</h3>
+                            <p class="card-text" data-translate="craft.product2.desc">Traditional ceremonial masks carved from local wood, representing cultural symbols and spiritual meanings.</p>
+                            <a href="product.html" class="btn btn-secondary" data-translate="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <div class="product-card-image">
+                            <div class="image-placeholder product-image" style="background-image: url('../assets/images/craft/products/pottery.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🏺</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="card-title" data-translate="craft.product3.title">Traditional Pottery</h3>
+                            <p class="card-text" data-translate="craft.product3.desc">Functional and decorative pottery made using age-old techniques, fired in traditional kilns.</p>
+                            <a href="product.html" class="btn btn-secondary" data-translate="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <div class="product-card-image">
+                            <div class="image-placeholder product-image" style="background-image: url('../assets/images/craft/products/textiles.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🧵</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="card-title" data-translate="craft.product4.title">Textile Art</h3>
+                            <p class="card-text" data-translate="craft.product4.desc">Handwoven textiles featuring traditional patterns and natural dyes, creating beautiful fabrics with cultural significance.</p>
+                            <a href="product.html" class="btn btn-secondary" data-translate="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                    <div class="card product-card">
+                        <div class="product-card-image">
+                            <div class="image-placeholder product-image" style="background-image: url('../assets/images/craft/products/jewelry.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">💎</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card-content">
+                            <h3 class="card-title" data-translate="craft.product5.title">Beaded Jewelry</h3>
+                            <p class="card-text" data-translate="craft.product5.desc">Intricate beaded jewelry made using traditional methods, each piece telling a story through color and pattern.</p>
+                            <a href="product.html" class="btn btn-secondary" data-translate="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                    <!-- Products will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="section section-gallery">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="craft.gallery.badge">Gallery</div>
+                    <h2 class="section-title" data-translate="craft.gallery.title">Craftsmanship in Action</h2>
+                    <p class="section-subtitle" data-translate="craft.gallery.subtitle">Witness the artistry and dedication behind each piece</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-1.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-2.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-3.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-4.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-5.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="image-placeholder gallery-image" style="background-image: url('../assets/images/craft/gallery/gallery-6.jpg');">
+                            <div class="placeholder-overlay">
+                                <span class="placeholder-icon">📸</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
+
+    <!-- Cookie Banner Component -->
+    <div id="cookie-banner-component"></div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/craft-list.js"></script>
+    <script>
+        // Initialize translation when page loads
+        setTimeout(function() {
+            if (typeof initTranslation === 'function') {
+                initTranslation();
+            }
+            if (typeof initLanguageSwitcher === 'function') {
+                initLanguageSwitcher();
+            }
+        }, 200);
+    </script>
+</body>
+</html>
+

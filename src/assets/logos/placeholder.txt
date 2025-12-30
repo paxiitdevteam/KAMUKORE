@@ -1,0 +1,39 @@
+# Logo Placeholders
+
+This directory is ready for logo assets.
+
+## Required Logo Files
+
+Create the following logo variations:
+
+### Main Logos
+- kamukore-logo.svg (main logo, SVG format)
+- kamukore-logo.png (main logo, PNG fallback)
+- kamukore-logo-white.svg (white version for dark backgrounds)
+- kamukore-logo-dark.svg (dark version for light backgrounds)
+
+### Size Variations
+- kamukore-logo-small.svg (for mobile/small screens)
+- kamukore-logo-medium.svg (for tablets)
+- kamukore-logo-large.svg (for desktop)
+
+### Favicon Files
+- favicon.svg (modern SVG favicon)
+- favicon.png (PNG favicon, 32x32px)
+- favicon.ico (legacy ICO favicon, 16x16px and 32x32px)
+
+## Recommended Dimensions
+
+- Main logo: 200-300px width
+- Small logo: 100-150px width
+- Medium logo: 150-200px width
+- Large logo: 300-400px width
+- Favicon: 32x32px (PNG), 16x16px and 32x32px (ICO)
+
+## Design Guidelines
+
+- Ensure logo is readable at small sizes
+- Provide high contrast versions for different backgrounds
+- Use SVG format for scalability
+- Maintain aspect ratio across all sizes
+

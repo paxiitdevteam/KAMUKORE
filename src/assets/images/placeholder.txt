@@ -1,0 +1,29 @@
+# Image Placeholders
+
+This directory is ready for image assets.
+
+## Placeholder Structure
+
+Create placeholder images for:
+- Products (product-1.jpg through product-6.jpg)
+- Experiences (experience-1.jpg through experience-6.jpg)
+- Craft items (craft-1.jpg through craft-6.jpg)
+- Wear/Fashion (wear-1.jpg through wear-6.jpg)
+- Regional content (region-culture.jpg, region-cuisine.jpg, region-craft.jpg, region-nature.jpg)
+- General content (cameroon-placeholder.jpg, experience-detail.jpg)
+
+## Recommended Dimensions
+
+- Product images: 800x600px
+- Experience images: 1200x800px
+- Card images: 600x400px
+- Hero images: 1920x1080px
+- Thumbnail images: 300x300px
+
+## File Naming
+
+Use descriptive names:
+- product-traditional-basket.jpg
+- experience-craft-workshop.jpg
+- region-littoral-culture.jpg
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Regions - KAMUKORE | Explore Cameroonian Regions</title>
+    <meta name="title" content="Regions - KAMUKORE | Explore Cameroonian Regions">
+    <meta name="description" content="Explore the diverse regions of Cameroon. Discover each region's unique culture, cuisine, crafts, nature, and authentic experiences. From coastal regions to highlands, from rainforests to savannas.">
+    <meta name="keywords" content="Cameroon regions, regional culture, Cameroonian regions, regional cuisine, regional crafts, Cameroon geography, cultural regions">
+    <meta name="author" content="KAMUKORE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kamukore.com/src/pages/region.html">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://kamukore.com/src/pages/region.html">
+    <link rel="alternate" hreflang="fr" href="https://kamukore.com/src/pages/region.html?lang=fr">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamukore.com/src/pages/region.html">
+    <meta property="og:title" content="Regions - KAMUKORE">
+    <meta property="og:description" content="Explore the diverse regions of Cameroon. Discover each region's unique culture, cuisine, crafts, and experiences.">
+    <meta property="og:image" content="https://kamukore.com/src/assets/images/region/region-hero.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kamukore.com/src/pages/region.html">
+    <meta name="twitter:title" content="Regions - KAMUKORE">
+    <meta name="twitter:description" content="Explore the diverse regions of Cameroon.">
+    <meta name="twitter:image" content="https://kamukore.com/src/assets/images/region/region-hero.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kamukore.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Regions",
+          "item": "https://kamukore.com/src/pages/region.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/path-manager.js"></script>
+    <script src="../assets/js/translations.js"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-component"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section with Background Image -->
+        <section class="page-hero region-hero" style="background-image: url('../assets/images/region/hero/hero-region.jpg');">
+            <div class="container">
+                <h1 data-translate="page.region.title">Regions of Cameroon</h1>
+                <p data-translate="page.region.subtitle">Explore the diverse cultural landscapes across Cameroon's regions</p>
+            </div>
+        </section>
+
+        <!-- Region Selector -->
+        <section class="section section-region-selector" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="region.selector.badge">Choose a Region</div>
+                    <h2 class="section-title" data-translate="region.selector.title">Explore Cameroon's Regions</h2>
+                    <p class="section-subtitle" data-translate="region.selector.subtitle">Click on a region to discover its unique culture, cuisine, crafts, and experiences</p>
+                </div>
+                <div id="region-selector">
+                    <!-- Region cards will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-region">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="region.littoral.badge">Littoral Region</div>
+                    <h1 class="section-title" data-translate="region.littoral.title">Littoral Region</h1>
+                    <p class="section-subtitle" data-translate="region.littoral.subtitle">Coastal culture with vibrant traditions and modern influences</p>
+                </div>
+
+                <!-- Region Navigation Filters -->
+                <div class="region-filters">
+                    <button class="region-filter-btn active" data-filter="culture" data-translate="region.filter.culture">Culture</button>
+                    <button class="region-filter-btn" data-filter="cuisine" data-translate="region.filter.cuisine">Cuisine</button>
+                    <button class="region-filter-btn" data-filter="craft" data-translate="region.filter.craft">Craft</button>
+                    <button class="region-filter-btn" data-filter="nature" data-translate="region.filter.nature">Nature</button>
+                    <button class="region-filter-btn" data-filter="experiences" data-translate="region.filter.experiences">Experiences</button>
+                </div>
+                
+                <!-- Culture -->
+                <section class="section-content" data-section="culture" style="margin-bottom: var(--spacing-xl);">
+                    <div class="section-header">
+                        <div class="section-badge" data-translate="region.culture.badge">Culture</div>
+                        <h2 class="section-title" data-translate="region.culture.title">Culture</h2>
+                    </div>
+                    <div class="grid grid-2 concept-grid">
+                        <div class="concept-content">
+                            <p data-translate-p1 data-translate="region.culture.p1">The Littoral Region is home to vibrant coastal cultures, particularly the Duala and Bassa peoples. The region's history as a trading hub has created a unique blend of traditional and modern influences.</p>
+                            <p data-translate-p2 data-translate="region.culture.p2">Traditional ceremonies, music, and dance remain central to community life, while the port city of Douala brings international perspectives and contemporary expressions of culture.</p>
+                        </div>
+                        <div class="concept-image-wrapper">
+                            <div class="image-placeholder concept-image" style="background-image: url('../assets/images/region/littoral/culture.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎭</span>
+                                    <span data-translate="region.culture.image">Culture</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Cuisine -->
+                <section class="section-content" data-section="cuisine" style="margin-bottom: var(--spacing-xl); background-color: var(--color-bg-light); padding: var(--spacing-xl); border-radius: var(--radius-lg);">
+                    <div class="section-header">
+                        <div class="section-badge" data-translate="region.cuisine.badge">Cuisine</div>
+                        <h2 class="section-title" data-translate="region.cuisine.title">Cuisine</h2>
+                    </div>
+                    <div class="grid grid-2 concept-grid">
+                        <div class="concept-image-wrapper">
+                            <div class="image-placeholder concept-image" style="background-image: url('../assets/images/region/littoral/cuisine.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🍽️</span>
+                                    <span data-translate="region.cuisine.image">Cuisine</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="concept-content">
+                            <p data-translate-p1 data-translate="region.cuisine.p1">Coastal cuisine features fresh seafood, plantains, and tropical fruits. Signature dishes include grilled fish, ndolé (bitterleaf stew), and various preparations of cassava and yams.</p>
+                            <p data-translate-p2 data-translate="region.cuisine.p2">The region's proximity to the ocean means fish and seafood are central to the diet, often prepared with aromatic spices and served with starchy accompaniments.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Craft -->
+                <section class="section-content" data-section="craft" style="margin-bottom: var(--spacing-xl);">
+                    <div class="section-header">
+                        <div class="section-badge" data-translate="region.craft.badge">Craft</div>
+                        <h2 class="section-title" data-translate="region.craft.title">Craft</h2>
+                    </div>
+                    <div class="grid grid-2 concept-grid">
+                        <div class="concept-content">
+                            <p data-translate-p1 data-translate="region.craft.p1">Traditional crafts include woodcarving, basket weaving, and textile production. Artisans create functional and decorative items that reflect coastal aesthetics and cultural symbols.</p>
+                            <p data-translate-p2 data-translate="region.craft.p2">Modern craftspeople blend traditional techniques with contemporary designs, creating pieces that honor heritage while appealing to modern tastes.</p>
+                        </div>
+                        <div class="concept-image-wrapper">
+                            <div class="image-placeholder concept-image" style="background-image: url('../assets/images/region/littoral/craft.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎨</span>
+                                    <span data-translate="region.craft.image">Craft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Nature -->
+                <section class="section-content" data-section="nature" style="margin-bottom: var(--spacing-xl); background-color: var(--color-bg-light); padding: var(--spacing-xl); border-radius: var(--radius-lg);">
+                    <div class="section-header">
+                        <div class="section-badge" data-translate="region.nature.badge">Nature</div>
+                        <h2 class="section-title" data-translate="region.nature.title">Nature</h2>
+                    </div>
+                    <div class="grid grid-2 concept-grid">
+                        <div class="concept-image-wrapper">
+                            <div class="image-placeholder concept-image" style="background-image: url('../assets/images/region/littoral/nature.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌊</span>
+                                    <span data-translate="region.nature.image">Nature</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="concept-content">
+                            <p data-translate-p1 data-translate="region.nature.p1">The Littoral Region features coastal plains, mangrove forests, and river deltas. The Wouri River flows through the region, creating fertile areas for agriculture and fishing.</p>
+                            <p data-translate-p2 data-translate="region.nature.p2">Mangrove ecosystems support diverse wildlife, while the coastline offers beautiful beaches and opportunities for water-based activities.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experiences -->
+                <section class="section-content" data-section="experiences">
+                    <div class="section-header">
+                        <div class="section-badge" data-translate="region.experiences.badge">Experiences</div>
+                        <h2 class="section-title" data-translate="region.experiences.title">Experiences</h2>
+                        <p class="section-subtitle" data-translate="region.experiences.subtitle">Discover authentic experiences in the Littoral Region</p>
+                    </div>
+                    <div class="grid grid-3" id="region-experiences">
+                        <!-- Experiences will be dynamically loaded here -->
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
+
+    <!-- Cookie Banner Component -->
+    <div id="cookie-banner-component"></div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/regions.js"></script>
+    <script>
+        // Initialize translation when page loads
+        setTimeout(function() {
+            if (typeof initTranslation === 'function') {
+                initTranslation();
+            }
+            if (typeof initLanguageSwitcher === 'function') {
+                initLanguageSwitcher();
+            }
+        }, 200);
+    </script>
+</body>
+</html>
+

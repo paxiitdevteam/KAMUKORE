@@ -1,0 +1,43 @@
+<!-- Cookie Banner Component - Universal Data Protection Standards -->
+<div class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-modal="true" id="cookie-banner">
+    <div class="cookie-banner-content">
+        <div class="cookie-banner-text">
+            <p data-translate="cookie.banner.text">We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and personalize content. By clicking "Accept All", you consent to our use of cookies in accordance with our Cookie Policy.</p>
+            <p class="cookie-banner-legal" data-translate="cookie.banner.legal">This website complies with GDPR (EU), CCPA (California), LGPD (Brazil), PIPEDA (Canada), and other applicable data protection laws.</p>
+        </div>
+        <div class="cookie-banner-actions">
+            <button class="btn btn-cookie btn-cookie-accept-all" data-translate="cookie.accept.all">Accept All</button>
+            <button class="btn btn-cookie btn-cookie-essential" data-translate="cookie.accept.essential">Essential Only</button>
+            <button class="btn btn-cookie btn-cookie-customize" data-translate="cookie.customize">Customize</button>
+            <a href="../pages/cookie-policy.html" class="cookie-banner-link" data-translate="cookie.learn.more">Learn More</a>
+        </div>
+        <div class="cookie-banner-customize" id="cookie-customize-panel" style="display: none;">
+            <h3 data-translate="cookie.customize.title">Cookie Preferences</h3>
+            <div class="cookie-category">
+                <label>
+                    <input type="checkbox" id="cookie-essential" checked disabled>
+                    <span data-translate="cookie.category.essential">Essential Cookies</span>
+                    <small data-translate="cookie.category.essential.desc">Required for the website to function properly. Cannot be disabled.</small>
+                </label>
+            </div>
+            <div class="cookie-category">
+                <label>
+                    <input type="checkbox" id="cookie-analytics">
+                    <span data-translate="cookie.category.analytics">Analytics Cookies</span>
+                    <small data-translate="cookie.category.analytics.desc">Help us understand how visitors interact with our website.</small>
+                </label>
+            </div>
+            <div class="cookie-category">
+                <label>
+                    <input type="checkbox" id="cookie-marketing">
+                    <span data-translate="cookie.category.marketing">Marketing Cookies</span>
+                    <small data-translate="cookie.category.marketing.desc">Used to deliver personalized advertisements and track campaign effectiveness.</small>
+                </label>
+            </div>
+            <div class="cookie-banner-actions">
+                <button class="btn btn-cookie btn-cookie-save" data-translate="cookie.save">Save Preferences</button>
+            </div>
+        </div>
+    </div>
+</div>
+

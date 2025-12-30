@@ -1,0 +1,34 @@
+# Video Placeholders
+
+This directory is ready for video assets.
+
+## Placeholder Structure
+
+Create placeholder videos for:
+- Experience showcases
+- Product demonstrations
+- Cultural content
+- Promotional videos
+
+## Recommended Specifications
+
+- Format: MP4 (H.264 codec)
+- Resolution: 1920x1080 (Full HD) or 1280x720 (HD)
+- Frame rate: 30fps
+- Bitrate: 5-10 Mbps for Full HD
+- Audio: AAC codec, 128-192 kbps
+
+## File Naming
+
+Use descriptive names:
+- experience-craft-workshop.mp4
+- product-demonstration.mp4
+- cultural-tradition.mp4
+
+## Multiple Formats
+
+Provide multiple formats for compatibility:
+- Primary: .mp4 (H.264)
+- Secondary: .webm (VP9)
+- Optional: .ogg (Theora)
+

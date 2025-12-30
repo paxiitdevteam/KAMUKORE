@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Culture - KAMUKORE | Cameroonian Cultural Heritage</title>
+    <meta name="title" content="Culture - KAMUKORE | Cameroonian Cultural Heritage">
+    <meta name="description" content="Explore the rich cultural heritage of Cameroon. Discover regions, traditions, cultural themes, and the diverse cultural landscape of Africa in Miniature.">
+    <meta name="keywords" content="Cameroon culture, cultural heritage, Cameroonian traditions, cultural regions, African culture, cultural diversity, cultural themes">
+    <meta name="author" content="KAMUKORE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kamukore.com/src/pages/culture.html">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://kamukore.com/src/pages/culture.html">
+    <link rel="alternate" hreflang="fr" href="https://kamukore.com/src/pages/culture.html?lang=fr">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamukore.com/src/pages/culture.html">
+    <meta property="og:title" content="Culture - KAMUKORE">
+    <meta property="og:description" content="Explore the rich cultural heritage of Cameroon. Discover regions, traditions, and cultural themes.">
+    <meta property="og:image" content="https://kamukore.com/src/assets/images/culture/culture-hero.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kamukore.com/src/pages/culture.html">
+    <meta name="twitter:title" content="Culture - KAMUKORE">
+    <meta name="twitter:description" content="Explore the rich cultural heritage of Cameroon.">
+    <meta name="twitter:image" content="https://kamukore.com/src/assets/images/culture/culture-hero.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kamukore.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Culture",
+          "item": "https://kamukore.com/src/pages/culture.html"
+        }
+      ]
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/path-manager.js"></script>
+    <script src="../assets/js/translations.js"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-component"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section with Background Image -->
+        <section class="page-hero culture-hero" style="background-image: url('../assets/images/culture/hero/hero-culture.jpg');">
+            <div class="container">
+                <h1 data-translate="page.culture.title">Culture</h1>
+                <p data-translate="page.culture.subtitle">Journey Through 250+ Cultures - Where Every Tradition Tells a Story</p>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="section section-intro">
+            <div class="container">
+                <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+                    <div class="section-badge" data-translate="culture.intro.badge">Cultural Heritage</div>
+                    <p class="section-subtitle" data-translate="culture.intro">Cameroon's cultural diversity is extraordinary. With over 250 ethnic groups and languages, each region offers unique traditions, customs, and ways of life.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Map Section -->
+        <section class="section section-map" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.map.badge">Explore the Map</div>
+                    <h2 class="section-title" data-translate="culture.map.title">Cameroon Regions Map</h2>
+                    <p class="section-subtitle" data-translate="culture.map.subtitle">Click on a region to discover its unique cultural identity</p>
+                </div>
+                <div class="map-container">
+                    <div class="cameroon-map-wrapper">
+                        <svg id="cameroon-map" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg" class="cameroon-map-svg">
+                            <!-- Cameroon Outline Background -->
+                            <rect width="1000" height="800" fill="#f5f5f5" rx="8"/>
+                            
+                            <!-- Regions Group - All 10 Regions -->
+                            <g id="regions-group">
+                                <!-- Littoral Region (Southwest coastal) -->
+                                <path 
+                                    id="region-littoral" 
+                                    class="region-path" 
+                                    data-region-id="littoral"
+                                    d="M 200 600 L 300 600 L 350 550 L 400 520 L 450 500 L 500 520 L 520 550 L 500 600 L 450 650 L 400 680 L 350 680 L 300 650 L 250 630 L 200 620 Z" 
+                                    fill="#d4af37" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- West Region (Central highlands) -->
+                                <path 
+                                    id="region-west" 
+                                    class="region-path" 
+                                    data-region-id="west"
+                                    d="M 300 300 L 450 300 L 500 320 L 550 350 L 600 380 L 600 420 L 550 450 L 500 480 L 450 480 L 400 450 L 350 420 L 300 400 L 300 350 Z" 
+                                    fill="#8b4513" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- North Region (Northern Sahel) -->
+                                <path 
+                                    id="region-north" 
+                                    class="region-path" 
+                                    data-region-id="north"
+                                    d="M 400 150 L 600 150 L 650 180 L 700 220 L 700 260 L 650 280 L 600 270 L 550 250 L 500 230 L 450 210 L 400 190 Z" 
+                                    fill="#cd853f" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- Far North Region (Northernmost) -->
+                                <path 
+                                    id="region-far-north" 
+                                    class="region-path" 
+                                    data-region-id="far-north"
+                                    d="M 400 50 L 700 50 L 750 80 L 800 120 L 800 150 L 750 180 L 700 160 L 650 140 L 600 130 L 550 120 L 500 110 L 450 100 L 400 90 Z" 
+                                    fill="#daa520" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- East Region (Eastern forest) -->
+                                <path 
+                                    id="region-east" 
+                                    class="region-path" 
+                                    data-region-id="east"
+                                    d="M 850 250 L 950 250 L 980 300 L 990 350 L 980 400 L 950 450 L 900 480 L 850 460 L 800 440 L 780 400 L 780 350 L 800 300 Z" 
+                                    fill="#228b22" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- South Region (Southern equatorial) -->
+                                <path 
+                                    id="region-south" 
+                                    class="region-path" 
+                                    data-region-id="south"
+                                    d="M 500 600 L 700 600 L 750 630 L 780 670 L 750 710 L 700 730 L 650 720 L 600 700 L 550 680 L 500 650 L 480 620 Z" 
+                                    fill="#32cd32" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- Centre Region (Central) -->
+                                <path 
+                                    id="region-centre" 
+                                    class="region-path" 
+                                    data-region-id="centre"
+                                    d="M 450 400 L 600 400 L 650 420 L 680 450 L 650 480 L 600 500 L 550 500 L 500 480 L 470 450 Z" 
+                                    fill="#4169e1" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- Northwest Region -->
+                                <path 
+                                    id="region-northwest" 
+                                    class="region-path" 
+                                    data-region-id="northwest"
+                                    d="M 200 200 L 350 200 L 400 230 L 420 270 L 400 310 L 350 330 L 300 320 L 250 300 L 200 280 L 180 250 Z" 
+                                    fill="#9370db" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- Southwest Region -->
+                                <path 
+                                    id="region-southwest" 
+                                    class="region-path" 
+                                    data-region-id="southwest"
+                                    d="M 200 500 L 350 500 L 400 530 L 420 570 L 400 610 L 350 630 L 300 620 L 250 600 L 200 580 L 180 550 Z" 
+                                    fill="#ff6347" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                                
+                                <!-- Adamawa Region (Central-North plateau) -->
+                                <path 
+                                    id="region-adamawa" 
+                                    class="region-path" 
+                                    data-region-id="adamawa"
+                                    d="M 500 200 L 700 200 L 750 230 L 780 270 L 750 310 L 700 330 L 650 320 L 600 300 L 550 280 L 500 260 L 480 230 Z" 
+                                    fill="#20b2aa" 
+                                    stroke="#1a1a1a" 
+                                    stroke-width="3"
+                                    opacity="0.7">
+                                </path>
+                            </g>
+                            
+                            <!-- Region Labels -->
+                            <g id="region-labels">
+                                <text x="350" y="600" class="region-label" data-region-id="littoral" fill="#1a1a1a">Littoral</text>
+                                <text x="450" y="380" class="region-label" data-region-id="west" fill="#ffffff">West</text>
+                                <text x="550" y="220" class="region-label" data-region-id="north" fill="#1a1a1a">North</text>
+                                <text x="600" y="100" class="region-label" data-region-id="far-north" fill="#1a1a1a">Far North</text>
+                                <text x="850" y="350" class="region-label" data-region-id="east" fill="#ffffff">East</text>
+                                <text x="600" y="680" class="region-label" data-region-id="south" fill="#1a1a1a">South</text>
+                                <text x="550" y="450" class="region-label" data-region-id="centre" fill="#ffffff">Centre</text>
+                                <text x="280" y="260" class="region-label" data-region-id="northwest" fill="#ffffff">NW</text>
+                                <text x="280" y="560" class="region-label" data-region-id="southwest" fill="#ffffff">SW</text>
+                                <text x="600" y="280" class="region-label" data-region-id="adamawa" fill="#ffffff">Adamawa</text>
+                            </g>
+                        </svg>
+                        
+                        <!-- Map Legend -->
+                        <div class="map-legend">
+                            <h4 data-translate="culture.map.legend.title">All 10 Regions</h4>
+                            <div class="legend-items">
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #d4af37;"></span>
+                                    <span data-translate="culture.region1.title">Littoral</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #8b4513;"></span>
+                                    <span data-translate="culture.region2.title">West</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #cd853f;"></span>
+                                    <span data-translate="culture.region3.title">North</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #daa520;"></span>
+                                    <span data-translate="culture.region10.title">Far North</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #228b22;"></span>
+                                    <span data-translate="culture.region4.title">East</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #32cd32;"></span>
+                                    <span data-translate="culture.region5.title">South</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #4169e1;"></span>
+                                    <span data-translate="culture.region6.title">Centre</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #9370db;"></span>
+                                    <span data-translate="culture.region7.title">Northwest</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #ff6347;"></span>
+                                    <span data-translate="culture.region8.title">Southwest</span>
+                                </div>
+                                <div class="legend-item">
+                                    <span class="legend-color" style="background-color: #20b2aa;"></span>
+                                    <span data-translate="culture.region9.title">Adamawa</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                
+        <!-- Regions Grid -->
+        <section class="section section-regions" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.regions.badge">Explore Regions</div>
+                    <h2 class="section-title" data-translate="culture.regions.title">Regions</h2>
+                    <p class="section-subtitle" data-translate="culture.regions.subtitle">Discover the unique cultural identity of each region</p>
+                </div>
+
+                <!-- Culture Controls -->
+                <div class="culture-controls">
+                    <div class="culture-search-wrapper">
+                        <input 
+                            type="text" 
+                            id="culture-search" 
+                            class="culture-search-input" 
+                            placeholder="Search regions..." 
+                            data-translate-placeholder="culture.search.placeholder"
+                            aria-label="Search regions">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    
+                    <div class="culture-filters">
+                        <button class="culture-filter-btn active" data-culture-filter="all" data-translate="culture.filter.all">All Regions</button>
+                        <button class="culture-filter-btn" data-culture-filter="coastal" data-translate="culture.filter.theme.coastal">Coastal</button>
+                        <button class="culture-filter-btn" data-culture-filter="kingdoms" data-translate="culture.filter.theme.kingdoms">Kingdoms</button>
+                        <button class="culture-filter-btn" data-culture-filter="nomadic" data-translate="culture.filter.theme.nomadic">Nomadic</button>
+                        <button class="culture-filter-btn" data-culture-filter="forest" data-translate="culture.filter.theme.forest">Forest</button>
+                        <button class="culture-filter-btn" data-culture-filter="bantu" data-translate="culture.filter.theme.bantu">Bantu</button>
+                        <button class="culture-filter-btn" data-culture-filter="urban" data-translate="culture.filter.theme.urban">Urban</button>
+                    </div>
+
+                    <div class="results-info">
+                        <span id="culture-results-count" data-translate="culture.filter.results">6 results</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-3" id="culture-regions-grid">
+                    <div class="card region-card">
+                        <div class="region-card-image">
+                            <div class="image-placeholder region-image" style="background-image: url('../assets/images/culture/regions/littoral.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌊</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="region-card-content">
+                            <h3 class="card-title" data-translate="culture.region1.title">Littoral Region</h3>
+                            <p class="card-text" data-translate="culture.region1.desc">Coastal culture with strong maritime traditions, vibrant markets, and the influence of port cities.</p>
+                            <a href="region.html" class="btn btn-secondary" data-translate="btn.explore">Explore</a>
+                        </div>
+                    </div>
+                    <div class="card region-card">
+                        <div class="region-card-image">
+                            <div class="image-placeholder region-image" style="background-image: url('../assets/images/culture/regions/west.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">⛰️</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="region-card-content">
+                            <h3 class="card-title" data-translate="culture.region2.title">West Region</h3>
+                            <p class="card-text" data-translate="culture.region2.desc">Highland culture known for traditional kingdoms, elaborate ceremonies, and rich agricultural heritage.</p>
+                            <a href="region.html" class="btn btn-secondary" data-translate="btn.explore">Explore</a>
+                        </div>
+                    </div>
+                    <div class="card region-card">
+                        <div class="region-card-image">
+                            <div class="image-placeholder region-image" style="background-image: url('../assets/images/culture/regions/north.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🏜️</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="region-card-content">
+                            <h3 class="card-title" data-translate="culture.region3.title">North Region</h3>
+                            <p class="card-text" data-translate="culture.region3.desc">Sahelian culture with nomadic traditions, Islamic influences, and unique architectural styles.</p>
+                            <a href="region.html" class="btn btn-secondary" data-translate="btn.explore">Explore</a>
+                        </div>
+                    </div>
+                    <div class="card region-card">
+                        <div class="region-card-image">
+                            <div class="image-placeholder region-image" style="background-image: url('../assets/images/culture/regions/east.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌲</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="region-card-content">
+                            <h3 class="card-title" data-translate="culture.region4.title">East Region</h3>
+                            <p class="card-text" data-translate="culture.region4.desc">Forest culture with deep connections to nature, traditional medicine, and hunter-gatherer traditions.</p>
+                            <a href="region.html" class="btn btn-secondary" data-translate="btn.explore">Explore</a>
+                        </div>
+                    </div>
+                    <div class="card region-card">
+                        <div class="region-card-image">
+                            <div class="image-placeholder region-image" style="background-image: url('../assets/images/culture/regions/south.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌴</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="region-card-content">
+                            <h3 class="card-title" data-translate="culture.region5.title">South Region</h3>
+                            <p class="card-text" data-translate="culture.region5.desc">Equatorial culture with Bantu traditions, vibrant music, and strong community bonds.</p>
+                            <a href="region.html" class="btn btn-secondary" data-translate="btn.explore">Explore</a>
+                        </div>
+                    </div>
+                    <!-- Regions will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Marketing Video Section -->
+        <section class="section section-video">
+            <div class="container">
+                <div class="video-section-header">
+                    <div class="section-badge" data-translate="culture.video.badge">Experience Our Culture</div>
+                    <h2 class="section-title" data-translate="culture.video.title">Discover Cameroon's Cultural Heritage</h2>
+                    <p class="section-subtitle" data-translate="culture.video.subtitle">Watch the vibrant traditions and celebrations come to life</p>
+                </div>
+                
+                <!-- YouTube Video Embed (Primary) -->
+                <!-- Replace YOUR_VIDEO_ID_HERE with your YouTube video ID -->
+                <div class="video-container">
+                    <div class="video-wrapper youtube-wrapper">
+                        <iframe 
+                            class="youtube-video"
+                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_HERE" 
+                            title="Cameroon Cultural Heritage - YouTube Video"
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            aria-label="Cameroon Cultural Heritage marketing video">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- Alternative: Uploaded Video (Fallback - Comment out YouTube section above to use this) -->
+                <!--
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video 
+                            class="marketing-video" 
+                            controls 
+                            poster="../assets/images/culture/video/video-poster.jpg"
+                            aria-label="Cameroon Cultural Heritage marketing video">
+                            <source src="../assets/videos/culture/culture-marketing.mp4" type="video/mp4">
+                            <source src="../assets/videos/culture/culture-marketing.webm" type="video/webm">
+                            <p data-translate="culture.video.fallback">Your browser doesn't support video. <a href="../assets/videos/culture/culture-marketing.mp4">Download the video</a> instead.</p>
+                        </video>
+                    </div>
+                </div>
+                -->
+
+                <!-- Additional YouTube Videos Grid -->
+                <div class="video-grid grid grid-2" style="margin-top: var(--spacing-xl);">
+                    <div class="video-card">
+                        <div class="video-thumbnail-wrapper">
+                            <iframe 
+                                class="youtube-video-small"
+                                src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2_HERE" 
+                                title="Cameroon Traditional Ceremonies"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-card-content">
+                            <h4 data-translate="culture.video.card1.title">Traditional Ceremonies</h4>
+                            <p data-translate="culture.video.card1.desc">Witness the beauty of Cameroonian rituals and ceremonies</p>
+                        </div>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail-wrapper">
+                            <iframe 
+                                class="youtube-video-small"
+                                src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3_HERE" 
+                                title="Cameroon Music & Dance"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="video-card-content">
+                            <h4 data-translate="culture.video.card2.title">Music & Dance</h4>
+                            <p data-translate="culture.video.card2.desc">Experience the rhythm and energy of Cameroonian performances</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Statistics Section -->
+        <section class="section section-statistics" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.statistics.badge">Cultural Diversity</div>
+                    <h2 class="section-title" data-translate="culture.statistics.title">Cameroon by the Numbers</h2>
+                    <p class="section-subtitle" data-translate="culture.statistics.subtitle">Discover the incredible diversity that makes Cameroon unique</p>
+                </div>
+                <div class="grid grid-4 statistics-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">🗣️</div>
+                        <div class="stat-number" data-translate="culture.statistics.languages">250+</div>
+                        <div class="stat-label" data-translate="culture.statistics.languages.label">Languages</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">👥</div>
+                        <div class="stat-number" data-translate="culture.statistics.ethnic">250+</div>
+                        <div class="stat-label" data-translate="culture.statistics.ethnic.label">Ethnic Groups</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🗺️</div>
+                        <div class="stat-number" data-translate="culture.statistics.regions">10</div>
+                        <div class="stat-label" data-translate="culture.statistics.regions.label">Regions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎭</div>
+                        <div class="stat-number" data-translate="culture.statistics.festivals">100+</div>
+                        <div class="stat-label" data-translate="culture.statistics.festivals.label">Annual Festivals</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Traditional Festivals Section -->
+        <section class="section section-festivals">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.festivals.badge">Celebrations</div>
+                    <h2 class="section-title" data-translate="culture.festivals.title">Traditional Festivals</h2>
+                    <p class="section-subtitle" data-translate="culture.festivals.subtitle">Experience the vibrant festivals that celebrate Cameroon's rich heritage</p>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card festival-card">
+                        <div class="festival-card-image">
+                            <div class="image-placeholder festival-image" style="background-image: url('../assets/images/culture/festivals/nguon.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">👑</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="festival-card-content">
+                            <h3 class="card-title" data-translate="culture.festival1.title">Nguon Festival</h3>
+                            <p class="card-text" data-translate="culture.festival1.desc">The Nguon rituals of the Bamoun community celebrate governance and cultural expressions. This ancient festival brings together thousands to honor traditional leadership and community values.</p>
+                            <div class="festival-meta">
+                                <span data-translate="culture.festival1.location">📍 Bamoun Kingdom</span>
+                                <span data-translate="culture.festival1.time">📅 Annual</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card festival-card">
+                        <div class="festival-card-image">
+                            <div class="image-placeholder festival-image" style="background-image: url('../assets/images/culture/festivals/nkwen.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎪</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="festival-card-content">
+                            <h3 class="card-title" data-translate="culture.festival2.title">Nkwen Festival</h3>
+                            <p class="card-text" data-translate="culture.festival2.desc">A grand celebration of heritage, arts, and culture featuring traditional dances, music performances, and craft exhibitions. This festival showcases the best of Cameroonian cultural expressions.</p>
+                            <div class="festival-meta">
+                                <span data-translate="culture.festival2.location">📍 Northwest Region</span>
+                                <span data-translate="culture.festival2.time">📅 December</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card festival-card">
+                        <div class="festival-card-image">
+                            <div class="image-placeholder festival-image" style="background-image: url('../assets/images/culture/festivals/yam.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌾</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="festival-card-content">
+                            <h3 class="card-title" data-translate="culture.festival3.title">Yam Festival</h3>
+                            <p class="card-text" data-translate="culture.festival3.desc">Celebrating the harvest season with traditional ceremonies, feasts, and cultural performances. This festival honors agricultural traditions and community unity.</p>
+                            <div class="festival-meta">
+                                <span data-translate="culture.festival3.location">📍 Multiple Regions</span>
+                                <span data-translate="culture.festival3.time">📅 Harvest Season</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culinary Traditions Section -->
+        <section class="section section-culinary" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.culinary.badge">Culinary Heritage</div>
+                    <h2 class="section-title" data-translate="culture.culinary.title">Traditional Cuisine</h2>
+                    <p class="section-subtitle" data-translate="culture.culinary.subtitle">Savor the flavors that tell stories of Cameroon's diverse regions</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card culinary-card">
+                        <div class="culinary-card-image">
+                            <div class="image-placeholder culinary-image" style="background-image: url('../assets/images/culture/culinary/ndole.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🍲</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="culinary-card-content">
+                            <h3 class="card-title" data-translate="culture.culinary1.title">Ndolé</h3>
+                            <p data-translate="culture.culinary1.desc">Cameroon's national dish, Ndolé is a flavorful stew made with bitterleaf, groundnuts, and fish or meat. This dish represents the culinary fusion of coastal and forest regions, enjoyed across the country.</p>
+                        </div>
+                    </div>
+                    <div class="card culinary-card">
+                        <div class="culinary-card-image">
+                            <div class="image-placeholder culinary-image" style="background-image: url('../assets/images/culture/culinary/achu.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🥘</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="culinary-card-content">
+                            <h3 class="card-title" data-translate="culture.culinary2.title">Achu</h3>
+                            <p data-translate="culture.culinary2.desc">A traditional culinary art featuring pounded cocoyam served with yellow soup. This dish is central to Northwest region celebrations and represents the artistry of Cameroonian cooking traditions.</p>
+                        </div>
+                    </div>
+                    <div class="card culinary-card">
+                        <div class="culinary-card-image">
+                            <div class="image-placeholder culinary-image" style="background-image: url('../assets/images/culture/culinary/koki.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🌿</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="culinary-card-content">
+                            <h3 class="card-title" data-translate="culture.culinary3.title">Koki</h3>
+                            <p data-translate="culture.culinary3.desc">Steamed bean pudding wrapped in banana leaves, Koki is a beloved dish that showcases traditional cooking methods and the importance of plant-based ingredients in Cameroonian cuisine.</p>
+                        </div>
+                    </div>
+                    <div class="card culinary-card">
+                        <div class="culinary-card-image">
+                            <div class="image-placeholder culinary-image" style="background-image: url('../assets/images/culture/culinary/jollof.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🍚</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="culinary-card-content">
+                            <h3 class="card-title" data-translate="culture.culinary4.title">Jollof Rice</h3>
+                            <p data-translate="culture.culinary4.desc">A popular West African dish with Cameroonian variations, featuring spiced rice cooked with tomatoes, peppers, and various proteins. This dish reflects the region's culinary connections.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Themes -->
+        <section class="section section-themes">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="culture.themes.badge">Cultural Themes</div>
+                    <h2 class="section-title" data-translate="culture.themes.title">Cultural Themes</h2>
+                    <p class="section-subtitle" data-translate="culture.themes.subtitle">Explore the rich tapestry of Cameroonian cultural expressions</p>
+                </div>
+                <div class="grid grid-2">
+                    <div class="card theme-card">
+                        <div class="theme-card-image">
+                            <div class="image-placeholder theme-image" style="background-image: url('../assets/images/culture/themes/ceremonies.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎭</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-card-content">
+                            <h3 class="card-title" data-translate="culture.theme1.title">Traditional Ceremonies</h3>
+                            <p data-translate="culture.theme1.desc">From birth rituals to funerals, ceremonies mark important life events and strengthen community bonds. Each ethnic group has unique practices that reflect their worldview and values.</p>
+                        </div>
+                    </div>
+                    <div class="card theme-card">
+                        <div class="theme-card-image">
+                            <div class="image-placeholder theme-image" style="background-image: url('../assets/images/culture/themes/music-dance.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎵</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-card-content">
+                            <h3 class="card-title" data-translate="culture.theme2.title">Music & Dance</h3>
+                            <p data-translate="culture.theme2.desc">Music and dance are integral to Cameroonian culture, serving as communication, celebration, and preservation of history. Each region has distinct rhythms and styles.</p>
+                        </div>
+                    </div>
+                    <div class="card theme-card">
+                        <div class="theme-card-image">
+                            <div class="image-placeholder theme-image" style="background-image: url('../assets/images/culture/themes/oral-traditions.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">📖</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-card-content">
+                            <h3 class="card-title" data-translate="culture.theme3.title">Oral Traditions</h3>
+                            <p data-translate="culture.theme3.desc">Stories, proverbs, and folktales passed down through generations carry wisdom, history, and cultural values. These narratives shape identity and community understanding.</p>
+                        </div>
+                    </div>
+                    <div class="card theme-card">
+                        <div class="theme-card-image">
+                            <div class="image-placeholder theme-image" style="background-image: url('../assets/images/culture/themes/art-craft.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎨</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-card-content">
+                            <h3 class="card-title" data-translate="culture.theme4.title">Art & Craftsmanship</h3>
+                            <p data-translate="culture.theme4.desc">Traditional arts and crafts reflect cultural identity, spiritual beliefs, and practical needs. From masks to textiles, each piece tells a story and serves a purpose.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
+
+    <!-- Cookie Banner Component -->
+    <div id="cookie-banner-component"></div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/culture-list.js"></script>
+    <script>
+        // Initialize map interactions
+        document.addEventListener('DOMContentLoaded', function() {
+            const regionPaths = document.querySelectorAll('.region-path');
+            const regionLabels = document.querySelectorAll('.region-label');
+            
+            // Add click handlers to regions
+            function handleRegionClick(regionId) {
+                // All 10 regions are valid
+                const validRegions = ['littoral', 'west', 'north', 'east', 'south', 'centre', 'northwest', 'southwest', 'adamawa', 'far-north'];
+                if (validRegions.includes(regionId)) {
+                    window.location.href = `region.html?region=${regionId}`;
+                }
+            }
+            
+            regionPaths.forEach(path => {
+                const regionId = path.getAttribute('data-region-id');
+                
+                // Click handler
+                path.addEventListener('click', () => handleRegionClick(regionId));
+                
+                // Hover effects
+                path.addEventListener('mouseenter', function() {
+                    this.style.opacity = '1';
+                    this.style.filter = 'brightness(1.2)';
+                    this.style.strokeWidth = '4';
+                    this.style.transition = 'all 0.3s ease';
+                    
+                    // Highlight corresponding label
+                    const label = document.querySelector(`.region-label[data-region-id="${regionId}"]`);
+                    if (label) {
+                        label.style.fontWeight = '700';
+                        label.style.fontSize = '16px';
+                    }
+                });
+                
+                path.addEventListener('mouseleave', function() {
+                    this.style.opacity = '0.7';
+                    this.style.filter = 'brightness(1)';
+                    this.style.strokeWidth = '3';
+                    
+                    // Reset label
+                    const label = document.querySelector(`.region-label[data-region-id="${regionId}"]`);
+                    if (label) {
+                        label.style.fontWeight = '600';
+                        label.style.fontSize = '14px';
+                    }
+                });
+            });
+            
+            // Make labels clickable too
+            regionLabels.forEach(label => {
+                const regionId = label.getAttribute('data-region-id');
+                label.addEventListener('click', () => handleRegionClick(regionId));
+                label.style.cursor = 'pointer';
+                label.style.pointerEvents = 'all';
+            });
+        });
+
+        // Initialize translation when page loads
+        setTimeout(function() {
+            if (typeof initTranslation === 'function') {
+                initTranslation();
+            }
+            if (typeof initLanguageSwitcher === 'function') {
+                initLanguageSwitcher();
+            }
+        }, 200);
+    </script>
+</body>
+</html>
+

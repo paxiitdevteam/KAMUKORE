@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Cultural Experiences - KAMUKORE | Authentic Cameroonian Experiences</title>
+    <meta name="title" content="Cultural Experiences - KAMUKORE | Authentic Cameroonian Experiences">
+    <meta name="description" content="Discover authentic cultural experiences in Cameroon. Immerse yourself in local traditions, crafts, and communities through workshops, village immersions, culinary journeys, and more.">
+    <meta name="keywords" content="cultural experiences, Cameroon experiences, cultural workshops, village immersion, culinary journey, traditional crafts, cultural tourism, authentic experiences">
+    <meta name="author" content="KAMUKORE">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kamukore.com/src/pages/experience.html">
+    
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="en" href="https://kamukore.com/src/pages/experience.html">
+    <link rel="alternate" hreflang="fr" href="https://kamukore.com/src/pages/experience.html?lang=fr">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kamukore.com/src/pages/experience.html">
+    <meta property="og:title" content="Cultural Experiences - KAMUKORE">
+    <meta property="og:description" content="Discover authentic cultural experiences in Cameroon. Immerse yourself in local traditions, crafts, and communities.">
+    <meta property="og:image" content="https://kamukore.com/src/assets/images/experience/experience-hero.jpg">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://kamukore.com/src/pages/experience.html">
+    <meta name="twitter:title" content="Cultural Experiences - KAMUKORE">
+    <meta name="twitter:description" content="Discover authentic cultural experiences in Cameroon.">
+    <meta name="twitter:image" content="https://kamukore.com/src/assets/images/experience/experience-hero.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://kamukore.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Experiences",
+          "item": "https://kamukore.com/src/pages/experience.html"
+        }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Cultural Experiences",
+      "description": "Discover authentic cultural experiences in Cameroon. Immerse yourself in local traditions, crafts, and communities.",
+      "url": "https://kamukore.com/src/pages/experience.html"
+    }
+    </script>
+    
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script src="../assets/js/path-manager.js"></script>
+    <script src="../assets/js/translations.js"></script>
+    <script src="../assets/js/components.js"></script>
+</head>
+<body>
+    <!-- Header Component -->
+    <div id="header-component"></div>
+
+    <!-- Main Content -->
+    <main role="main">
+        <!-- Hero Section with Background Image -->
+        <section class="page-hero experience-hero" style="background-image: url('../assets/images/experience/hero/hero-experience.jpg');">
+            <div class="container">
+                <h1 data-translate="page.experience.title">Cultural Experiences</h1>
+                <p data-translate="page.experience.subtitle">Immerse yourself in authentic cultural experiences that connect you with local traditions and communities</p>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="section section-intro">
+            <div class="container">
+                <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+                    <div class="section-badge" data-translate="experience.intro.badge">Authentic Experiences</div>
+                    <p class="section-subtitle" data-translate="experience.intro">Cameroon's cultural diversity is extraordinary. With over 250 ethnic groups and languages, each region offers unique traditions, customs, and ways of life.</p>
+                </div>
+            </div>
+        </section>
+                
+        <!-- Experiences Grid -->
+        <section class="section section-experiences" style="background-color: var(--color-bg-light);">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge" data-translate="experience.experiences.badge">Our Experiences</div>
+                    <h2 class="section-title" data-translate="experience.experiences.title">Cultural Experiences</h2>
+                    <p class="section-subtitle" data-translate="experience.experiences.subtitle">Connect with local traditions and communities</p>
+                </div>
+
+                <!-- Experience Controls -->
+                <div class="experience-controls">
+                    <div class="experience-search-wrapper">
+                        <input 
+                            type="text" 
+                            id="experience-search" 
+                            class="experience-search-input" 
+                            placeholder="Search experiences..." 
+                            data-translate-placeholder="experience.search.placeholder"
+                            aria-label="Search experiences">
+                        <span class="search-icon">🔍</span>
+                    </div>
+                    
+                    <div class="experience-filters">
+                        <button class="experience-filter-btn active" data-experience-filter="all" data-translate="experience.filter.all">All Experiences</button>
+                        <button class="experience-filter-btn" data-experience-filter="craft" data-translate="experience.filter.craft">Craft</button>
+                        <button class="experience-filter-btn" data-experience-filter="cultural" data-translate="experience.filter.cultural">Cultural</button>
+                        <button class="experience-filter-btn" data-experience-filter="culinary" data-translate="experience.filter.culinary">Culinary</button>
+                        <button class="experience-filter-btn" data-experience-filter="nature" data-translate="experience.filter.nature">Nature</button>
+                    </div>
+
+                    <div class="results-info">
+                        <span id="experience-results-count" data-translate="experience.filter.results">6 results</span>
+                    </div>
+                </div>
+
+                <div class="grid grid-3" id="experiences-grid">
+                    <div class="card experience-card">
+                        <div class="experience-card-image">
+                            <div class="image-placeholder experience-image" style="background-image: url('../assets/images/experience/experiences/craft-workshop.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎨</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card-content">
+                            <h2 class="card-title" data-translate="experience.card1.title">Craft Workshop Experience</h2>
+                            <p class="card-text" data-translate="experience.card1.desc">Learn traditional crafting techniques from master artisans. Create your own piece while understanding the cultural significance behind each technique.</p>
+                            <a href="experience-detail.html?id=craft-workshop" class="btn btn-secondary" data-translate="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card experience-card">
+                        <div class="experience-card-image">
+                            <div class="image-placeholder experience-image" style="background-image: url('../assets/images/experience/experiences/village-immersion.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🏘️</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card-content">
+                            <h2 class="card-title" data-translate="experience.card2.title">Village Cultural Immersion</h2>
+                            <p class="card-text" data-translate="experience.card2.desc">Spend a day in a traditional village, participating in daily activities, learning local customs, and sharing meals with community members.</p>
+                            <a href="experience-detail.html?id=village-immersion" class="btn btn-secondary" data-translate="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card experience-card">
+                        <div class="experience-card-image">
+                            <div class="image-placeholder experience-image" style="background-image: url('../assets/images/experience/experiences/culinary-journey.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🍳</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card-content">
+                            <h2 class="card-title" data-translate="experience.card3.title">Culinary Journey</h2>
+                            <p class="card-text" data-translate="experience.card3.desc">Discover the flavors of Cameroon through hands-on cooking classes, market visits, and traditional meal preparation with local chefs.</p>
+                            <a href="experience-detail.html?id=culinary-journey" class="btn btn-secondary" data-translate="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card experience-card">
+                        <div class="experience-card-image">
+                            <div class="image-placeholder experience-image" style="background-image: url('../assets/images/experience/experiences/music-dance.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🎵</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card-content">
+                            <h2 class="card-title" data-translate="experience.card4.title">Music & Dance Performance</h2>
+                            <p class="card-text" data-translate="experience.card4.desc">Experience traditional music and dance performances, learn the rhythms, and understand the stories told through movement and sound.</p>
+                            <a href="experience-detail.html?id=music-dance" class="btn btn-secondary" data-translate="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card experience-card">
+                        <div class="experience-card-image">
+                            <div class="image-placeholder experience-image" style="background-image: url('../assets/images/experience/experiences/nature-wildlife.jpg');">
+                                <div class="placeholder-overlay">
+                                    <span class="placeholder-icon">🦁</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="experience-card-content">
+                            <h2 class="card-title" data-translate="experience.card5.title">Nature & Wildlife Tour</h2>
+                            <p class="card-text" data-translate="experience.card5.desc">Explore Cameroon's diverse ecosystems, from rainforests to savannas, guided by local experts who share traditional knowledge of the land.</p>
+                            <a href="experience-detail.html?id=nature-wildlife" class="btn btn-secondary" data-translate="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                    <!-- Experiences will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <div id="footer-component"></div>
+
+    <!-- Cookie Banner Component -->
+    <div id="cookie-banner-component"></div>
+
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/experience-list.js"></script>
+    <script>
+        // Initialize translation when page loads
+        // Wait for components to load first
+        setTimeout(function() {
+            if (typeof initTranslation === 'function') {
+                initTranslation();
+            }
+            if (typeof initLanguageSwitcher === 'function') {
+                initLanguageSwitcher();
+            }
+        }, 200);
+    </script>
+</body>
+</html>
+
