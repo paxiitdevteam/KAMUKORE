@@ -1,5 +1,18 @@
 # KAMUKORE Website
 
+## 🌐 GitHub Pages
+
+**Repository**: [https://github.com/paxiitdevteam/KAMUKORE](https://github.com/paxiitdevteam/KAMUKORE)
+
+**To enable GitHub Pages:**
+1. Go to repository **Settings** → **Pages**
+2. Select **Branch**: `main`
+3. Select **Folder**: `/ (root)`
+4. Click **Save**
+5. Your site will be available at: `https://paxiitdevteam.github.io/KAMUKORE/`
+
+**Note**: GitHub Pages must be enabled in repository settings for the website to load.
+
 ## 🚀 Quick Start - Run the Server
 
 ### Git Bash (Recommended)
